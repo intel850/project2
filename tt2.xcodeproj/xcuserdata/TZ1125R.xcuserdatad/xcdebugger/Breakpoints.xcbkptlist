@@ -4,18 +4,18 @@
    version = "1.0">
    <FileBreakpoints>
       <FileBreakpoint
-         shouldBeEnabled = "Yes"
+         shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          isPathRelative = "1"
-         filePath = "tt2/main.m"
-         timestampString = "352032701.191406"
+         filePath = "tt2/MasterViewController.m"
+         timestampString = "353451465.151141"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "18"
-         endingLineNumber = "18"
-         landmarkName = "main()"
-         landmarkType = "7">
+         startingLineNumber = "260"
+         endingLineNumber = "260"
+         landmarkName = "-post_btn_down2:"
+         landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>
 </Bucket>
