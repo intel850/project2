@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		600076CE1511520400F01DCD /* ThirdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 600076CC1511520400F01DCD /* ThirdView.m */; };
+		600076CF1511520400F01DCD /* ThirdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 600076CD1511520400F01DCD /* ThirdView.xib */; };
 		604956A815111BAE009279B8 /* DetailViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 604956A615111BAE009279B8 /* DetailViewController2.m */; };
 		604956A915111BAE009279B8 /* DetailViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 604956A715111BAE009279B8 /* DetailViewController2.xib */; };
 		605788F0151134B000E12692 /* landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 605788EF151134B000E12692 /* landscape.png */; };
@@ -42,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		600076CB1511520400F01DCD /* ThirdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdView.h; sourceTree = "<group>"; };
+		600076CC1511520400F01DCD /* ThirdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdView.m; sourceTree = "<group>"; };
+		600076CD1511520400F01DCD /* ThirdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdView.xib; sourceTree = "<group>"; };
 		604956A515111BAE009279B8 /* DetailViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController2.h; sourceTree = "<group>"; };
 		604956A615111BAE009279B8 /* DetailViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController2.m; sourceTree = "<group>"; };
 		604956A715111BAE009279B8 /* DetailViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController2.xib; sourceTree = "<group>"; };
@@ -143,9 +148,11 @@
 				60F1F3DD14FB774B00493DF3 /* DetailViewController.h */,
 				60F1F3DE14FB774B00493DF3 /* DetailViewController.m */,
 				60F1F3E614FB774B00493DF3 /* DetailViewController_iPhone.xib */,
-				605788EF151134B000E12692 /* landscape.png */,
 				604956A515111BAE009279B8 /* DetailViewController2.h */,
 				604956A615111BAE009279B8 /* DetailViewController2.m */,
+				600076CB1511520400F01DCD /* ThirdView.h */,
+				600076CC1511520400F01DCD /* ThirdView.m */,
+				600076CD1511520400F01DCD /* ThirdView.xib */,
 				604956A715111BAE009279B8 /* DetailViewController2.xib */,
 				60F1F3E314FB774B00493DF3 /* MasterViewController_iPad.xib */,
 				60F1F3E914FB774B00493DF3 /* DetailViewController_iPad.xib */,
@@ -161,6 +168,7 @@
 				60F1F3D114FB774B00493DF3 /* InfoPlist.strings */,
 				60F1F3D414FB774B00493DF3 /* main.m */,
 				60F1F3D614FB774B00493DF3 /* tt2-Prefix.pch */,
+				605788EF151134B000E12692 /* landscape.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -237,6 +245,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ja,
 			);
 			mainGroup = 60F1F3B914FB774B00493DF3;
 			productRefGroup = 60F1F3C514FB774B00493DF3 /* Products */;
@@ -261,6 +270,7 @@
 				60F1F3EB14FB774B00493DF3 /* DetailViewController_iPad.xib in Resources */,
 				604956A915111BAE009279B8 /* DetailViewController2.xib in Resources */,
 				605788F0151134B000E12692 /* landscape.png in Resources */,
+				600076CF1511520400F01DCD /* ThirdView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +310,7 @@
 				60F1F3DC14FB774B00493DF3 /* MasterViewController.m in Sources */,
 				60F1F3DF14FB774B00493DF3 /* DetailViewController.m in Sources */,
 				604956A815111BAE009279B8 /* DetailViewController2.m in Sources */,
+				600076CE1511520400F01DCD /* ThirdView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
