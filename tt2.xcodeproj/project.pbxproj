@@ -150,10 +150,10 @@
 				60F1F3E614FB774B00493DF3 /* DetailViewController_iPhone.xib */,
 				604956A515111BAE009279B8 /* DetailViewController2.h */,
 				604956A615111BAE009279B8 /* DetailViewController2.m */,
+				604956A715111BAE009279B8 /* DetailViewController2.xib */,
 				600076CB1511520400F01DCD /* ThirdView.h */,
 				600076CC1511520400F01DCD /* ThirdView.m */,
 				600076CD1511520400F01DCD /* ThirdView.xib */,
-				604956A715111BAE009279B8 /* DetailViewController2.xib */,
 				60F1F3E314FB774B00493DF3 /* MasterViewController_iPad.xib */,
 				60F1F3E914FB774B00493DF3 /* DetailViewController_iPad.xib */,
 				60F1F3CF14FB774B00493DF3 /* Supporting Files */,
@@ -389,6 +389,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -414,6 +415,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -432,6 +434,7 @@
 		60F1F40414FB774B00493DF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "tt2/tt2-Prefix.pch";
 				INFOPLIST_FILE = "tt2/tt2-Info.plist";
@@ -444,6 +447,7 @@
 		60F1F40514FB774B00493DF3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "tt2/tt2-Prefix.pch";
 				INFOPLIST_FILE = "tt2/tt2-Info.plist";
